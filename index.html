@@ -23,24 +23,42 @@
                 <fieldset>
                     <legend>Let's do this!</legend>
 
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName" />
+                    <div class = form-container>
+                        <div class = left-form>
+                            <div class = form-entry>
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" />
+                            </div>
 
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName" />
+                            <div class = form-entry>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="usermail" />
+                            </div>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="usermail" />
+                            <div class = form-entry>
+                                <label for="pwd">Password</label>
+                                <input type="password" id="pwd" name="password" />
+                            </div>
+                        </div> <!--left-form-->
 
-                    <label for="telNumber">Phone Number</label>
-                    <input type="tel" id="telNumber" name="telNumber" />
+                        <div class = right-form>
+                            <div class = form-entry>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" />
+                            </div>
 
-                    <label for="pwd">Password</label>
-                    <input type="password" id="pwd" name="password" />
+                            <div class = form-entry>
+                                <label for="telNumber">Phone Number</label>
+                                <input type="tel" id="telNumber" name="telNumber" />
+                            </div>
+                            <div class = form-entry>
+                                <label for="pwd">Confirm password</label>
+                                <input type="password" id="confPwd" name="password" />
+                                <!---- change name above? -->
+                            </div>
+                        </div><!--right-form-->
+                    </div><!--form-container-->
 
-                    <label for="pwd">Confirm password</label>
-                    <input type="password" id="confPwd" name="password" />
-                    <!---- change name above? -->
                 </fieldset>
                 <fieldset>
                     <button type="submit">Create an account</button>

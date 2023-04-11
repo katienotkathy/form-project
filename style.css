@@ -25,3 +25,21 @@ body {
 #logo-panel {
     background-color: rgba(0,0,0,40%);
 }
+
+.form {
+    display:flex;
+}
+
+.form-container {
+    display:flex;
+}
+
+.left-form, .right-form {
+    display:flex;
+    flex-direction: column;
+}
+
+.form-entry {
+    display:flex;
+    flex-direction: column;
+}
