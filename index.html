@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="left-panel">
-        <div id="logo-panel"></div>
+        <div id="logo-panel">
+            <img src = "./odin-lined.png" height="75px">
+            ODIN 
+        </div>
     </div>
     <div id="right-panel">
         <div id="form-header"></div>
@@ -18,6 +22,25 @@
             <form action="https://placeholder" method="placeholder">
                 <fieldset>
                     <legend>Let's do this!</legend>
+
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" />
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="usermail" />
+
+                    <label for="telNumber">Phone Number</label>
+                    <input type="tel" id="telNumber" name="telNumber" />
+
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" name="password" />
+
+                    <label for="pwd">Confirm password</label>
+                    <input type="password" id="confPwd" name="password" />
+                    <!---- change name above? -->
                 </fieldset>
                 <fieldset>
                     <button type="submit">Create an account</button>

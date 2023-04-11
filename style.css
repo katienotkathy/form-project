@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "NorseBold";
+    src: url("./Norse-Bold.otf") format("opentype");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+#left-panel {
+    width: 30%;
+    font-family: "NorseBold";
+    font-size: 48pt;
+    color: white;
+    background-image: url("./background.jpg");
+    background-size: cover;
+}
+
+#right-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-panel {
+    background-color: rgba(0,0,0,40%);
+}
