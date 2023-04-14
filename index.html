@@ -11,17 +11,18 @@
     <div id="left-panel">
         <div id="logo-panel">
             <img src = "./odin-lined.png" height="75px">
-            ODIN 
+            <span class = "logo-text">ODIN</span>
         </div>
     </div>
     <div id="right-panel">
-        <div id="form-header"></div>
-        <p>This is not a real online service! But it sure does look like one, no? You should go ahead and make an account. Don't be shy! Go ahead!</p>
-        <p>You <em>know</em> you want to!</p>
+        <div id="form-header">
+            <h5>This is not a real online service! But it sure does look like one, no? You should go ahead and make an account. Don't be shy! Go ahead!</h5>
+            <h5>You <em>know</em> you want to!</h5>
+        </div>
         <div id="form">
             <form action="https://placeholder" method="placeholder">
-                <fieldset>
-                    <legend>Let's do this!</legend>
+                <fieldset class = main-form>
+                    <h5>Let's do this!</h5>
 
                     <div class = form-container>
                         <div class = left-form>
@@ -37,7 +38,7 @@
 
                             <div class = form-entry>
                                 <label for="pwd">Password</label>
-                                <input type="password" id="pwd" name="password" />
+                                <input type="password" id="pwd" name="password" required/>
                             </div>
                         </div> <!--left-form-->
 
@@ -60,8 +61,8 @@
                     </div><!--form-container-->
 
                 </fieldset>
-                <fieldset>
-                    <button type="submit">Create an account</button>
+                <fieldset class="sumbit-field">
+                    <button type="submit">Create account</button>
                     <p>Already have an account? <a href="https://placeholder">Log in</a> </p> 
                 </fieldset>
             </form>

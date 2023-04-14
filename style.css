@@ -4,12 +4,32 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
 }
 
+h5 {
+    margin-block-start: 0.25em;
+}
+
+p {
+    font-size: .83rem;
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
+}
+
+#left-panel, #right-panel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #left-panel {
-    width: 30%;
+    width: 66%;
     font-family: "NorseBold";
     font-size: 48pt;
     color: white;
@@ -18,28 +38,72 @@ body {
 }
 
 #right-panel {
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(249, 249, 249);
+}
+
+.sumbit-field {
+    padding: 2rem;
+    border: none;
+    background-color: rgb(249, 249, 249);
 }
 
 #logo-panel {
     background-color: rgba(0,0,0,40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.form {
-    display:flex;
+.logo-text {
+    padding-top: 1rem;
+}
+
+#form-header {
+    padding: 2rem;
+}
+
+.main-form {
+    border: none;
+    background-color: white;
+    padding-left: 2rem;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 5px -5px black;
 }
 
 .form-container {
     display:flex;
+    flex: 1 1 0;
 }
 
 .left-form, .right-form {
-    display:flex;
-    flex-direction: column;
+    padding-right: 2rem;
 }
 
 .form-entry {
     display:flex;
     flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+input {
+    border: solid rgb(232, 232, 232);
+    background-color: rgb(249, 249, 249);
+}
+
+input:focus {
+    border: solid lightblue;
+    box-shadow: 0 2px 3px gray;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: xx-small;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    padding: .75rem 1.75rem;
 }
