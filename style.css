@@ -1,6 +1,6 @@
 @font-face {
     font-family: "NorseBold";
-    src: url("./Norse-Bold.otf") format("opentype");
+    src: url("./fonts/Norse-Bold.otf") format("opentype");
 }
 
 body {
@@ -33,7 +33,7 @@ a {
     font-family: "NorseBold";
     font-size: 48pt;
     color: white;
-    background-image: url("./background.jpg");
+    background-image: url("./images/background.jpg");
     background-size: cover;
 }
 
@@ -52,6 +52,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: .5rem;
 }
 
 .logo-text {
